@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+@import "tailwindcss";
+
+:root{
+  --background-color: #001D3D;
+  --nav-bar-color: #003566;
+  --accent-color: #FFD60A;
+  --icon-color-selected: #FFC300;
+  --title-weight: 800;
+  --title-size: 12dvw;
+  --description-size: 8dvw;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--background-color);
+  color: var(--accent-color);
+  margin: 0;
+  padding: 0;
+}
+
+.media-icon{
+  @apply flex font-stretch-condensed font-bold flex-col justify-center items-center;
+}
+
+@media (aspect-ratio < 1) {
+  h1{
+    font-size: var(--title-size);
+    font-weight: var(--title-weight);
+    
+  }
+  
+  h2{
+    position: relative;
+    left: -15.5dvw;
+    top: -6dvw;
+    font-size: var(--description-size);
+    font-stretch: ultra-condensed;
+    font-style: italic;
+  }
+  
+}
