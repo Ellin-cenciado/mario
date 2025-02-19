@@ -20,7 +20,10 @@ body {
 }
 
 .media-icon{
-  @apply flex font-stretch-condensed font-bold flex-col justify-center items-center;
+  @apply flex font-stretch-condensed font-bold flex-col justify-center items-center hover:cursor-pointer;
+}
+.media-icon:hover{
+  color: var(--icon-color-selected);
 }
 
 @media (aspect-ratio < 1) {

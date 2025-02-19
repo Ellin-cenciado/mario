@@ -12,7 +12,7 @@ interface PageProviderProps {
 }
 
 export function PageProvider({children}: PageProviderProps) {    
-    const [page, setPage] = useState<string>("inicio");
+    const [page, setPage] = useState<string>("Inicio");
     
     return (
         <PageContext.Provider value = {{page, setPage}}>
