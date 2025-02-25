@@ -1,3 +1,3 @@
 export default function ContactPage() {
-    return <>Contact</>;
+    return <div className="hidden">Contact</div>;
 }

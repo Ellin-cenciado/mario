@@ -1,3 +1,3 @@
 export default function GalleryPage() {
-  return <>Gallery</>;
+  return <div className="hidden">Gallery</div>;
 }
