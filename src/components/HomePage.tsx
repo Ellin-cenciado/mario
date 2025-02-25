@@ -12,4 +12,16 @@ function HomePage() {
     
   }
   
-  export default HomePage /* Project on hold due to design revision */
+  export default HomePage 
+  /* Project on hold due to design revision 
+  
+  Oportunidades de Mejora 🛠
+
+🔹 Espaciado y alineación: Algunas secciones tienen mucho espacio vacío, mientras que otras se ven apretadas. Ajustar el padding/margin mejoraría la legibilidad.
+🔹 Botón activo en la navegación: No se resalta la sección en la que se encuentra el usuario. Agregar un color diferente para el ícono activo mejoraría la experiencia.
+🔹 Formulario de contacto más visible: El campo de texto tiene poco contraste con el fondo. Un borde o fondo más claro ayudaría.
+🔹 Mejor calidad en las imágenes de la galería: Algunas imágenes parecen un poco comprimidas, lo que puede afectar la percepción de profesionalismo.
+🔹 Más interacción: Agregar efectos hover en botones o imágenes daría una experiencia más dinámica.
+
+En general, es un diseño sólido, pero con pequeñas mejoras podría ser más atractivo y funcional. ¿Te gustaría que te ayude con algo en específico? 🚀
+  */
