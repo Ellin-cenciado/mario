@@ -8,7 +8,7 @@ import { PageProvider } from './context/PageContext.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <PageProvider>
-      <App />
+      <App/>
       <NavBar />
     </PageProvider>
   </StrictMode>,

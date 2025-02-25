@@ -13,7 +13,7 @@ export default function NavBar() {
     }
 
     return (
-        <nav className="flex items-center rounded-t-2xl justify-center h-[10dvh] w-[100dvw] bg-(--nav-bar-color)  fixed top-[90dvh]" role="navigation">
+        <nav className="flex items-center rounded-t-2xl justify-center h-[10dvh] w-screen bg-(--nav-bar-color)  fixed top-[91dvh]" role="navigation">
             <div className="flex items-center justify-evenly w-[90%]">
                 <IconContext.Provider value={{size: "40%"}}>
                     <button onClick={e => handleClick(e)} id="Inicio" className="media-icon"><AiFillHome className="pointer-events-none"/>Inicio</button>

@@ -13,7 +13,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: var(--background-color);
+  background-color: var(--nav-bar-color); /* Choosing the navbar color as background because of bottom phone thing */
   color: var(--accent-color);
   margin: 0;
   padding: 0;
