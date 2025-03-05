@@ -7,8 +7,10 @@
   --accent-color: #FFD60A;
   --icon-color-selected: #FFC300;
   --title-weight: 800;
-  --title-size: 12dvw;
-  --description-size: 8dvw;
+  --title-size: 6rem;
+  --description-size: 6rem;
+  height: 100dvh;
+  width: 100dvw;
 }
 
 body {
